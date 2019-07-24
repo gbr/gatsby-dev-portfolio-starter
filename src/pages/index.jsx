@@ -114,7 +114,7 @@ const Index = () => (
           <Avatar src={avatar} alt="Glenn Ryan" />
           <AboutSub>
             I've been a Firmware Engineer. And I've been a UX Designer. Now I
-            make UIs with the same focus on function, usability, and
+            make UIs with the same focus on stability, function, usability, and
             presentation.
           </AboutSub>
         </AboutHero>
