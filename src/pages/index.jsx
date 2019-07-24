@@ -86,14 +86,14 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Mapbox PoI (Place of Interest) Marker"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            link="https://infallible-haibt-43a809.netlify.com/"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
             This project is a searchable map where you can pin locations and explore Earth's geography between them.
           </ProjectCard>
           <ProjectCard
             title="Catch of the Day"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            link="https://ctd.netlify.com"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             This project (by way of Wes Box) is a fictitious fish wholesale store where you can add, edit, and delete orders via a Firebase datastore.
