@@ -118,13 +118,13 @@ const Index = () => (
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I use React, Flux patterns (mostly Redux), and GraphQL (as needed) to
-          create delightful, engaging, blazing-fast experiences that your users
-          will appreciate. I also enjoy working with visualizations,
-          particularly maps and charts. I am based in the SF Bay Area, but I am
-          also open to remote work. I specialize in front-end as a collaboration
-          between designers and backend developers, but I am open to full-stack
-          work, as I am familiar with GraphQL and Node.js as well.
+          I use React and Flux patterns—mostly Redux—, to create delightful,
+          engaging, blazing-fast experiences that your users will appreciate. I
+          also enjoy working with visualizations, particularly maps and charts.
+          I am based in the SF Bay Area, but I am also open to remote work. I
+          specialize in front-end as a collaboration between designers and
+          backend developers, but I am open to full-stack work, as I am familiar
+          with GraphQL and Node.js as well.
         </AboutDesc>
       </About>
       <Contact offset={4}>
