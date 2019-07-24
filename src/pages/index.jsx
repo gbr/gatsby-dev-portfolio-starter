@@ -63,67 +63,66 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm Glenn Ryan.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I create meticulously-crafted UIs using React and friends.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Jiffy"
+            link="https://confident-aryabhata-407d55.netlify.com/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            This project (by way of SuperHi) is a gif generator using the Giphy API.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="Marmalade.fm"
+            link="https://zealous-meitner-25752a.netlify.com"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            This project (by way of SuperHi) is a curated showcase of artists via Mixcloud.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
+            title="Mapbox PoI (Place of Interest) Marker"
             link="https://www.behance.net/gallery/43907099/Tomb-Raider"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            This project is a searchable map where you can pin locations and explore Earth's geography between them.
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
+            title="Catch of the Day"
             link="https://www.behance.net/gallery/38068151/Eagle"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            This project (by way of Wes Box) is a fictitious fish wholesale store where you can add, edit, and delete orders via a Firebase datastore.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Glenn Ryan" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            I've been a Firmware Engineer. And I've been a UX Designer. Now I make UIs with the same focus on function,
+            usability, and presentation.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          I use React, Flux patterns (mostly Redux), and GraphQL (as needed) to create delightful, engaging, blazing-fast experiences
+          that your users will appreciate. I also enjoy working with visualizations, particularly maps and charts. I am based in the SF
+          Bay Area, but I am also open to remote work. I specialize in front-end as a collaboration between designers and backend developers,
+          but I am open to full-stack work, as I am familiar with GraphQL and Node.js as well.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:info@glennr.dev">Hi</a> or find me on other platforms:{' '}
+            <a href="https://github.com/gbr">GitHub</a> &{' '}
+            <a href="https://www.instagram.com/glennr_design/">Instagram</a>
           </ContactText>
         </Inner>
         <Footer>
