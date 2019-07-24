@@ -66,7 +66,8 @@ const Index = () => (
           Hello, <br /> my name is Glenn Ryan, and I'm a UI Engineer.
         </BigTitle>
         <Subtitle>
-          I create web apps and experiences using React and friends.
+          I create web apps and experiences using React and friends. Check out
+          my projects below!
         </Subtitle>
       </Hero>
       <Projects offset={1}>
