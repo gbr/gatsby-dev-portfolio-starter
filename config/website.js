@@ -9,7 +9,7 @@ module.exports = {
   siteHeadline: "UI Engineer with a keen eye", // Headline for schema.org JSONLD
   siteUrl: "https://glennr.dev", // Domain of your site. No trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
-  siteLogo: "/logo.png", // Used for SEO and manifest
+  siteLogo: "/logo1.png", // Used for SEO and manifest
   siteDescription:
     "Glenn Ryan's portfolio site for demo apps and visualizations",
   author: "@gbr", // Author for schema.org JSONLD
