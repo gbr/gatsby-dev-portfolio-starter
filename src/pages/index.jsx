@@ -1,6 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 import tw from "tailwind.macro";
+import styled from "styled-components";
 import { Parallax } from "react-spring/renderprops-addons.cjs";
 
 // Components
@@ -41,12 +41,13 @@ const Avatar = styled.img`
   ${tw`rounded-full w-32 xl:w-48 shadow-lg h-auto`};
 `;
 
+// TODO figure out how to make this into two-col for larger widths
 const AboutSub = styled.span`
-  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
+  ${tw`text-white font-mono leading-tight pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
 `;
 
 const AboutDesc = styled.p`
-  ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
+  ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12`};
 `;
 
 const ContactText = styled.p`
@@ -63,11 +64,11 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> my name is Glenn Ryan, and I'm a UI Engineer.
+          Hello, <br /> I'm Glenn Ryan, and I'm a UI Engineer.
         </BigTitle>
         <Subtitle>
-          I create web apps and experiences using React and friends. Check out
-          my projects below!
+          I create web experiences using React and friends. Check out my
+          projects below!
         </Subtitle>
       </Hero>
       <Projects offset={1}>
@@ -76,7 +77,8 @@ const Index = () => (
           <ProjectCard
             title="Jiffy"
             link="https://confident-aryabhata-407d55.netlify.com/"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            // TODO use tailwind colors in all of these so they're not arbitrary
+            bg="linear-gradient(to right, #121212 0%, #343434 100%)"
           >
             This project (by way of SuperHi) is a gif generator using the Giphy
             API.
@@ -84,7 +86,7 @@ const Index = () => (
           <ProjectCard
             title="Marmalade.fm"
             link="https://zealous-meitner-25752a.netlify.com"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            bg="linear-gradient(to right, #4B8E2A 0%, #E59B05 100%)"
           >
             This project (by way of SuperHi) is a curated showcase of artists
             via Mixcloud.
@@ -92,7 +94,7 @@ const Index = () => (
           <ProjectCard
             title="Mapbox PoI (Place of Interest) Marker"
             link="https://infallible-haibt-43a809.netlify.com/"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+            bg="linear-gradient(to right, #005D94 0%, #046966 100%)"
           >
             This project is a searchable map where you can pin locations and
             explore Earth's geography between them.
@@ -100,7 +102,7 @@ const Index = () => (
           <ProjectCard
             title="Catch of the Day"
             link="https://ctd.netlify.com"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            bg="linear-gradient(to right, #BE0407 0%, #D23036 100%)"
           >
             This project (by way of Wes Box) is a fictitious fish wholesale
             store where you can add, edit, and delete orders via a Firebase
@@ -113,19 +115,16 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="Glenn Ryan" />
           <AboutSub>
-            I've been a Firmware Engineer. And I've been a UX Designer. Now I
-            make UIs with the same focus on stability, function, usability, and
-            presentation.
+            I've been a Firmware Engineer and a UX Designer. Now I make UIs with
+            the same focus on stability, function, usability, and presentation.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I use React and Flux patterns—mostly Redux—, to create delightful,
-          engaging, blazing-fast experiences that your users will appreciate. I
-          also enjoy working with visualizations, particularly maps and charts.
-          I am based in the SF Bay Area, but I am also open to remote work. I
-          specialize in front-end as a collaboration between designers and
-          backend developers, but I am open to full-stack work, as I am familiar
-          with GraphQL and Node.js as well.
+          I use React and its ecosystem to create delightful, blazing-fast
+          experiences your users will appreciate. I work in San Francisco and
+          remotely. I specialize in front-end development as a collaboration
+          between designers and backend developers. I also do full-stack
+          development using GraphQL and Node.js.
         </AboutDesc>
       </About>
       <Contact offset={4}>
