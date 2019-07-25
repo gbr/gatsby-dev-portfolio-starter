@@ -2,13 +2,9 @@ const tailwind = require("../tailwind");
 
 /* 
   TODO
-  2. Use the tailwind.js file to configure TailwindCSS.
-    - The Tailwind documentation explains it step-by-step.
   3. Modify the files in the src/styles directory.
     - Customize animations and main foreground and background colors
   4. Modify the sections in the src/views directory. They contain the Dividers & SVG icons.
-    - Change the gradient boxes to actually match the theme and maintain a legible contrast on all sides
-    - Remove the copyright once the theme is sufficiently different
   5. Place the icons somewhere else on the page, modify their animation and hide them on smaller screens (see GitHub page)
     - Change the icons into PSX icons only (and change the logo into an outline X)
 */
@@ -22,7 +18,7 @@ module.exports = {
   siteHeadline: "UI Engineer with a keen eye", // Headline for schema.org JSONLD
   siteUrl: "https://glennr.dev", // Domain of your site. No trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
-  siteLogo: "/logo-black.png", // Used for SEO and manifest
+  siteLogo: "/logo.png", // Used for SEO and manifest
   siteDescription:
     "Glenn Ryan's portfolio site for demo apps and visualizations",
   author: "@gbr", // Author for schema.org JSONLD

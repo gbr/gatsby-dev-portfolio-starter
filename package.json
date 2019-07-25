@@ -52,7 +52,8 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.2",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "tailwindcss-multi-column": "^1.0.2"
   },
   "repository": {
     "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",

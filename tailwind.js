@@ -1,3 +1,4 @@
+// cspell:disable
 /*
 
 Tailwind - The Utility-First CSS Framework
@@ -170,9 +171,9 @@ module.exports = {
   screens: {
     xs: "375px",
     sm: "600px",
-    md: "900px",
-    lg: "1200px",
-    xl: "1600px",
+    md: "768px",
+    lg: "1024px",
+    xl: "1280px",
     xxl: "1600px"
   },
 
@@ -623,7 +624,9 @@ module.exports = {
     "12": "3rem",
     "16": "4rem",
     "24": "6rem",
-    "32": "8rem"
+    "32": "8rem",
+    "48": "12rem",
+    "64": "16rem"
   },
 
   /*
@@ -760,5 +763,9 @@ module.exports = {
   options: {
     prefix: "",
     important: false
-  }
+  },
+
+  plugins: [
+    require("tailwindcss-multi-column")() // no options to configure
+  ]
 };

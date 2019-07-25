@@ -2,6 +2,7 @@ import React from "react";
 import tw from "tailwind.macro";
 import styled from "styled-components";
 import { Parallax } from "react-spring/renderprops-addons.cjs";
+import { colors } from "../../tailwind";
 
 // Components
 import Layout from "../components/Layout";
@@ -41,13 +42,16 @@ const Avatar = styled.img`
   ${tw`rounded-full w-32 xl:w-48 shadow-lg h-auto`};
 `;
 
-// TODO figure out how to make this into two-col for larger widths
 const AboutSub = styled.span`
   ${tw`text-white font-mono leading-tight pt-12 lg:pt-0 md:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
 `;
 
 const AboutDesc = styled.p`
-  ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12`};
+  ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 lg:col-count-2`}
+  /* TODO figure out how to get the column plugin to work */
+  @media (min-width:1024px) {
+    column-count: 2;
+  }
 `;
 
 const ContactText = styled.p`
@@ -64,7 +68,7 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm Glenn Ryan, and I'm a UI Engineer.
+          Hello, <br /> I'm Glenn Ryan. I'm a UI Engineer.
         </BigTitle>
         <Subtitle>
           I create web experiences using React and friends. Check out my
@@ -77,8 +81,9 @@ const Index = () => (
           <ProjectCard
             title="Jiffy"
             link="https://confident-aryabhata-407d55.netlify.com/"
-            // TODO use tailwind colors in all of these so they're not arbitrary
-            bg="linear-gradient(to right, #121212 0%, #343434 100%)"
+            bg={`linear-gradient(to right, ${colors["blue-black"]} 0%, ${
+              colors["grey-darkest"]
+            } 100%)`}
           >
             This project (by way of SuperHi) is a gif generator using the Giphy
             API.
@@ -86,15 +91,19 @@ const Index = () => (
           <ProjectCard
             title="Marmalade.fm"
             link="https://zealous-meitner-25752a.netlify.com"
-            bg="linear-gradient(to right, #4B8E2A 0%, #E59B05 100%)"
+            bg={`linear-gradient(to right, ${colors["orange"]} 0%, ${
+              colors["yellow-dark"]
+            } 100%)`}
           >
             This project (by way of SuperHi) is a curated showcase of artists
-            via Mixcloud.
+            via MixCloud.
           </ProjectCard>
           <ProjectCard
-            title="Mapbox PoI (Place of Interest) Marker"
+            title="MapBox PoI (Place of Interest) Marker"
             link="https://infallible-haibt-43a809.netlify.com/"
-            bg="linear-gradient(to right, #005D94 0%, #046966 100%)"
+            bg={`linear-gradient(to right, ${colors["teal-darker"]} 0%, ${
+              colors["blue-light"]
+            } 100%)`}
           >
             This project is a searchable map where you can pin locations and
             explore Earth's geography between them.
@@ -102,11 +111,13 @@ const Index = () => (
           <ProjectCard
             title="Catch of the Day"
             link="https://ctd.netlify.com"
-            bg="linear-gradient(to right, #BE0407 0%, #D23036 100%)"
+            bg={`linear-gradient(to right, ${colors["indigo-dark"]} 0%, ${
+              colors["red-light"]
+            } 100%)`}
           >
             This project (by way of Wes Box) is a fictitious fish wholesale
-            store where you can add, edit, and delete orders via a Firebase
-            datastore.
+            store where you can add, edit, and delete orders via a Firebase data
+            store.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
