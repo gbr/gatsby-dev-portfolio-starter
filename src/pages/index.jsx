@@ -34,7 +34,7 @@ const ProjectsWrapper = styled.div`
 `;
 
 const AboutHero = styled.div`
-  ${tw`flex flex-col lg:flex-row items-center mt-8`};
+  ${tw`flex flex-col md:flex-row items-center mt-8`};
 `;
 
 const Avatar = styled.img`
@@ -43,7 +43,7 @@ const Avatar = styled.img`
 
 // TODO figure out how to make this into two-col for larger widths
 const AboutSub = styled.span`
-  ${tw`text-white font-mono leading-tight pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
+  ${tw`text-white font-mono leading-tight pt-12 lg:pt-0 md:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
 `;
 
 const AboutDesc = styled.p`
@@ -137,11 +137,12 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{" "}
+          <p>&copy; 2019 Glenn Ryan</p> Special thanks to{" "}
+          <a href="https://www.lekoarts.de">LekoArts</a> for the{" "}
           <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">
-            GitHub Repository
+            starting template
           </a>
-          . Made by <a href="https://www.lekoarts.de">LekoArts</a>.
+          .
         </Footer>
       </Contact>
     </Parallax>
