@@ -91,8 +91,8 @@ const Index = () => (
           <ProjectCard
             title="MapBox Point of Interest Marker"
             link="https://infallible-haibt-43a809.netlify.com/"
-            bg={`linear-gradient(to right, ${colors["teal-darker"]} 0%, ${
-              colors["blue-light"]
+            bg={`linear-gradient(to right, ${colors["blue-dark"]} 0%, ${
+              colors["teal"]
             } 100%)`}
           >
             This project is a searchable map where you can pin locations and
