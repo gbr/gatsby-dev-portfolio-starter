@@ -6,7 +6,6 @@ const tailwind = require("../tailwind");
     - Customize animations and main foreground and background colors
   4. Modify the sections in the src/views directory. They contain the Dividers & SVG icons.
   5. Place the icons somewhere else on the page, modify their animation and hide them on smaller screens (see GitHub page)
-    - Change the icons into PSX icons only (and change the logo into an outline X)
 */
 
 module.exports = {

@@ -7,6 +7,8 @@ import { UpDown, UpDownWide } from "../styles/animations";
 import { colors } from "../../tailwind";
 import SVG from "../components/SVG";
 
+// TODO play with placement and quantity of shapes here and elsewhere
+
 const About = ({ children, offset }) => (
   <>
     <Divider
@@ -21,6 +23,7 @@ const About = ({ children, offset }) => (
           icon="box"
           hiddenMobile
           width={6}
+          // TODO play with more colors here and elsewhere
           fill={colors.blue}
           left="50%"
           top="75%"

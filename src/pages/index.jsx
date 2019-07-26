@@ -89,17 +89,7 @@ const Index = () => (
             API.
           </ProjectCard>
           <ProjectCard
-            title="Marmalade.fm"
-            link="https://zealous-meitner-25752a.netlify.com"
-            bg={`linear-gradient(to right, ${colors["orange"]} 0%, ${
-              colors["yellow-dark"]
-            } 100%)`}
-          >
-            This project (by way of SuperHi) is a curated showcase of artists
-            via MixCloud.
-          </ProjectCard>
-          <ProjectCard
-            title="MapBox PoI (Place of Interest) Marker"
+            title="MapBox Point of Interest Marker"
             link="https://infallible-haibt-43a809.netlify.com/"
             bg={`linear-gradient(to right, ${colors["teal-darker"]} 0%, ${
               colors["blue-light"]
