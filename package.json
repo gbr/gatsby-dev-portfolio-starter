@@ -23,7 +23,6 @@
     "react-helmet": "^5.2.1",
     "react-spring": "^8.0.27",
     "styled-components": "^4.3.2",
-    "tailwind.macro": "^0.5.10",
     "tailwindcss": "^0.7.4",
     "typeface-cantata-one": "^0.0.72",
     "typeface-open-sans": "^0.0.75",
@@ -45,6 +44,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
+    "babel-plugin-macros": "^2.6.1",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^6.0.0",
@@ -53,6 +53,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.2",
     "prettier": "^1.18.2",
+    "tailwind.macro": "^0.5.10",
     "tailwindcss-multi-column": "^1.0.2"
   },
   "repository": {
