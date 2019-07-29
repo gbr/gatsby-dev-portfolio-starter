@@ -133,10 +133,10 @@ const Index = () => (
         </AboutHero>
         <AboutDesc>
           I use React and its ecosystem to create delightful, blazing-fast
-          experiences your users will appreciate. I work in San Francisco and
-          remotely. I specialize in front-end development as a collaboration
-          between designers and backend developers. I also do full-stack
-          development using GraphQL and Node.js.
+          experiences your users will appreciate. I work in San Francisco,
+          Oakland, and remotely. I specialize in front-end development as a
+          collaboration between designers and backend developers. I also do
+          full-stack development using GraphQL and Node.js.
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -145,7 +145,7 @@ const Index = () => (
           <ContactText>
             Say <a href="mailto:info@glennr.dev">Hi</a> or find me on other
             platforms: <a href="https://github.com/gbr">GitHub</a> &{" "}
-            <a href="https://www.instagram.com/glennr_design/">Instagram</a>
+            <a href="https://www.linkedin.com/in/gbryan/">LinkedIn</a>
           </ContactText>
         </Inner>
         <Footer>
