@@ -101,13 +101,24 @@ const Index = () => (
           <ProjectCard
             title="Catch of the Day"
             link="https://ctd.netlify.com"
-            bg={`linear-gradient(to right, ${colors["indigo-dark"]} 0%, ${
-              colors["red-light"]
+            bg={`linear-gradient(to right, ${colors["teal"]} 0%, ${
+              colors["yellow-dark"]
             } 100%)`}
           >
             This project (by way of Wes Box) is a fictitious fish wholesale
             store where you can add, edit, and delete orders via a Firebase data
             store.
+          </ProjectCard>
+          <ProjectCard
+            title="A Night in Japan"
+            link="https://adoring-chandrasekhar-00dfb2.netlify.com"
+            bg={`linear-gradient(to right, ${colors["indigo-dark"]} 0%, ${
+              colors["red-light"]
+            } 100%)`}
+          >
+            This is a toy blog made in Gatsby using a Japanese minimalist
+            design. Through it, I play with and learn Gatsby and GraphQL
+            concepts.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
